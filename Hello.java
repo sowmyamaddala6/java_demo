@@ -124,8 +124,155 @@
        // System.out.println(result);
     //}
 //}
-class Hello{
+//class Hello{
+   // public static void main(String[] args) {
+        //System.out.println("hi");
+    //}
+//}
+//Logical operators
+//public class Hello{
+    //public static void main(String[] args) {
+       // int x = 6;
+        //int y = 5;
+        //int a = 3;
+        //int b = 4;
+       // boolean result = x>y || a<b;
+        //System.out.println(result);
+   // }
+//}
+/*public class Hello{
     public static void main(String[] args) {
-        System.out.println("hi");
+        int a =5;
+        int b=6;
+        int x=4;
+        int y=3;
+        boolean result = x>y;
+        System.out.println(!result); 
     }
-}
+}*/
+//conditional statements(if else)
+/*public class Hello{
+    public static void main(String[] args) {
+        int x=16;
+        int y=15;
+        if(x>y)
+        {
+        System.out.println(x);
+        System.out.println("Thank you");
+        }
+        else
+        System.out.println(y);
+    }
+}*/
+//if else if
+/*public class Hello{
+    public static void main(String[] args) {
+        int x=8;
+        int y=7;
+        int z=9;
+        if(x>y && x>z)
+        System.out.println(x);
+        else if(y>x && y>z)
+        System.out.println(y);
+        else
+        System.out.println(z);
+    }
+}*/
+/*public class Hello{
+    public static void main(String[] args) {
+        int x=8;
+        int y=6;
+        int z=9;
+        if(x>y && x>z)
+        System.out.println(x);
+        else if(y>x && y>z)
+        System.out.println(y);
+        else
+        System.out.println(z);
+    }
+}*/
+//Ternary operator
+/*public class Hello{
+    public static void main(String[] args) {
+        int n=5;
+        int result=0;
+        if(n%2==0)
+        result=10;
+        else
+        result=20;
+        System.out.println(result);
+    }
+}*/
+/*public class Hello{
+    public static void main(String[] args) {
+        int n=6;
+        int result=0;
+        result = n%2==0 ? 10:20;
+        System.out.println(result);
+    }
+}*/
+//Switch statements 
+/*public class Hello{
+    public static void main(String[] args) {
+       int  n=8;
+       switch(n){
+              case 1:
+        System.out.println("Monday");
+        break;
+              case 2:
+        System.out.println("Tuesday");
+        break;
+             case 3:
+        System.out.println("Wednesday");
+        break;
+             case 4:
+        System.out.println("Thursday");
+        break;
+             case 5:
+        System.out.println("Friday");
+        break;
+             case 6:
+        System.out.println("Saturday");
+        break;
+             case 7: 
+        System.out.println("Sunday");
+        break;
+        default:
+        System.out.println("Enter a valid number");
+       }
+
+    }
+}*/
+//New in java switch 
+/*public class Hello{
+    public static void main(String[] args) {
+        String day = "Sunday";
+        String result ="";
+         result = switch(day){
+        
+            case"Saturday","Sunday"  : yield "6am";
+            case "Monday" :yield "8am";
+            default :yield "7am";
+         };
+        
+        System.out.println(result);
+    }
+}*/
+//Need For Loop in Java
+/*public class Hello{
+    public static void main(String[] args) {
+        System.err.println("Hi");
+        System.err.println("Hi");
+        System.err.println("Hi");
+    }
+}*/
+//While Loop
+/*public class Hello{
+    public static void main(String[] args) {
+        int i=1;
+        while(i<=1){
+        System.out.println("Hi" + i);
+        i++;
+        }
+    }
+}*/
